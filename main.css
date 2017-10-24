@@ -1,0 +1,528 @@
+
+
+/*                   HEADER                   */
+
+*{
+	margin: auto;
+	width: 1000px;
+	font-family: 'Lato', sans-serif;
+}
+
+#moto {
+	height: 45px;
+	background: #1a1a1a;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #e6e6e6;
+	font-size: 10pt;
+	text-align: center;
+	line-height: 45px;
+	letter-spacing: 4px;
+}
+
+#header {
+	height: 230px;
+	background: url(img/books.jpg) 50% 60%;
+	background-size: cover;
+}	
+
+	#header:before {
+		display: block;
+		font-weight: 700;
+		height: 230px;
+		font-size: 120pt;
+		text-align: left;
+		content: 'READERON:';
+		line-height: 230px;
+		padding-left: 15px;
+	}	
+
+	#header:before {
+		background: #000;
+		color: #fff;
+		mix-blend-mode: darken;
+		opacity: 0.75;
+	}
+
+
+
+
+/*                   MENU                   */
+
+#menu ul {
+	margin: 1px 0px 0px 0px;
+	padding-left: 30px;
+	width: 970px;
+	height: 40px;
+	background: #1a1a1a;
+	line-height: 40px;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	padding: 8px 20px 8px 20px;
+	font-size: 12pt;
+	font-family: "Oswald", sans-serif;
+	color: #e6e6e6;
+	text-decoration: none;
+}
+
+#menu a.active {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 2px;
+}
+
+
+
+
+/*                   FOOTER                   */
+
+#foot {
+	background: #262626;
+	height: 150px;
+}
+
+#social img {
+	width: 25px;
+	margin: 5px 20px 5px 20px;
+}
+
+#copyright {
+	background: #1a1a1a;
+	height: 30px;
+	font-size: 10pt;
+	font-weight: 300;
+	color: #404040;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+
+
+/*                   ARTICLE                   */
+
+#article {
+	background: #fff;
+	margin: 40px 0px 20px 0px;
+	height: 280px;
+}
+
+#article img {
+	float: left;
+	width: 520px;
+	padding-left: 40px;
+}
+
+#article h1 {
+	max-width: 350px;
+	float: right;
+	color: #000;
+	font-family: "Oswald", sans-serif;
+	font-size: 45pt;
+	line-height: 50pt;
+	margin: 20px 0px 0px 0px;
+	padding: 0px 30px 0px 20px;
+	cursor: pointer;
+}
+
+#article p {
+	display: inline-block;
+	max-width: 250px;
+	font-size: 11pt;
+	font-weight: 300;
+	line-height: 20px;
+	color: #000;
+	padding: 30px 0px 0px 60px;
+}
+
+#page_break {
+	width: 300px;
+	background: #fff;
+	border-bottom: solid;
+	border-width: 1px;
+	height: 10px;
+	margin-bottom: 50px;
+}
+
+#author_interviews h1 {
+	width: 400px;
+	font-size: 23pt;
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	text-transform: capitalize;
+	line-height: 37px;
+}
+
+#author_interviews ul {
+	padding: 0px;
+	margin: 40px 0px 60px 0px;
+	text-align: center;
+}
+
+#author_interviews ul li {
+	list-style-type: none;
+	display: inline-block;
+	max-width: 300px;
+	margin: 0px 0px 0px 0px;
+}
+
+#author_interviews img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	padding: 0px 30px 0px 30px;
+	margin-bottom: 30px;
+}
+
+#author_interviews h2 {
+	width: 200px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 16pt;
+	font-weight: 400;
+}
+
+#author_interviews p {
+	font-weight: 300;
+	font-style: italic;
+	width: 220px;
+	padding-top: 20px;
+}
+
+
+
+
+/*                   ABOUT                  */
+
+#about {
+	background-image: url(img/about_background.jpg);
+	background-size: cover;
+	height: 400px;
+}
+
+#about_container {
+	width: 460px;
+	margin: auto;
+	padding: 50px 0px 20px 0px;
+}
+
+.about_icon {
+	width: 50px;
+	padding: 0px 50px 30px 50px;
+}
+
+#about h1 {
+	width: 200px;
+	padding: 10px 45px 10px 45px;
+	font-size: 15pt;
+	display: inline;
+	color: #fff;
+}
+
+#about p {
+	padding-top: 10px;
+	width: 460px;
+	font-size: 10pt;
+	line-height: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+h1#read {
+	width: 110px;
+	padding: 0;
+	margin: 0px 445px 0px 445px;
+	position: absolute;
+	top: 630px;
+}
+
+#about a {
+	font-size: 20pt;
+	text-decoration: none;
+	color: transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+#about a:hover {
+	color: #fff;
+}
+
+
+
+
+/*                   BROWSE                   */
+
+#browse {
+	max-height: 2000px;
+}
+
+#browse_form_container {
+	padding: 20px;
+	max-width: 400px;
+}
+
+#browse_form {
+	width: 380px;
+	font-size: 13pt;
+	padding: 10px;
+	margin: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+#submit {
+	width: 100px;
+	font-size: 13pt;
+	padding: 5px 10px 5px 10px;
+	margin: 10px 150px 0px 150px;
+	font-family: 'Oswald', sans-serif;
+	color: #1a1a1a;
+	background: transparent;
+	cursor: pointer;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #1a1a1a;
+}
+
+#submit:hover{
+	background: #1a1a1a;
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #999999;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+textarea, input, button {
+   /*removes the blue outline indicating a pressed button*/
+	outline: none;
+}
+
+table {
+	padding: 0px 20px 0px 20px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table, th, td {
+	color: #000;
+	background-color: #fff;
+}
+
+table tr:first-child td {
+	color: #fff;
+	background-color: #1a1a1a;
+	text-align: center;
+	font-size: 12pt;
+	font-family: "Oswald", sans-serif;
+}
+
+
+
+
+/*                   BOOKS                   */
+
+#books {
+	background: transparent;
+	margin: 5px 0px 5px 0px;
+	height: 500px;
+}
+
+#book_container {
+	width: 250px;
+	float: left;
+	padding-top: 20px;
+}
+
+.cover {
+	width: 200px;
+	height: 220px;
+}
+
+.cover img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+ul.my_books {
+	display: inline;
+	list-style-type: none;
+}
+
+.my_books ul li {
+	display: inline;
+}
+
+#book_container p {
+	width: 200px;
+	font-size: 13pt;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-weight: 100;
+	padding: 15px 5px 5px 5px;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+#book_container h1 {
+	width: 200px;
+	font-size: 16pt;
+	text-align: center;
+	padding: 5px 5px 15px 5px;
+}
+
+button {
+	font-size: 13pt;
+	font-family: "Oswald", sans-serif;
+	width: 80px;
+	padding: 5px;
+	margin: 0px 85px 0px 85px;
+	color: #000;
+	background: transparent;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+/*                   CONTACT                   */
+
+#contact {
+	background-image: url(img/about_background.jpg);
+	background-size: cover;
+	margin: 0px 0px 0px 0px;
+	height: 400px;
+}
+
+#contact_form {
+	width: 360px;
+	font-size: 13pt;
+	padding: 10px;
+	margin: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 0px;
+}
+
+#send {
+	width: 100px;
+	font-size: 13pt;
+	padding: 5px 10px 5px 10px;
+	margin: 10px 150px 0px 150px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	background: transparent;
+	cursor: pointer;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+#send:hover {
+	background: white;
+	color: #000;
+}
+
+
+
+
+/*                   GALLERY                   */
+
+#upload {
+	height: 300px;
+	width: auto;
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+#upload_container {
+	margin: 10px;
+	overflow: hidden;
+	margin: 0px 0px 20px 0px;
+}
+
+#choose_file {
+	padding: 5px 10px 5px 10px;
+	margin: 10px 0px 0px 0px;
+}
+
+#upload_button {
+	width: 100px;
+	font-size: 13pt;
+	padding: 5px 10px 5px 10px;
+	margin: 10px 0px 20px 10px;
+	font-family: 'Oswald', sans-serif;
+	color: #1a1a1a;
+	background: transparent;
+	cursor: pointer;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #1a1a1a;
+}
+
+#upload_button:hover{
+	background: #1a1a1a;
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #999999;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+
+
+
+/*                   LOGIN                   */
+
+#login_container {
+	margin: 0 auto;
+	width: 400px;
+	text-align: left;
+}
+
+#welcome {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-top: 70px;
+	width: 400px;
+	margin: 0 auto;
+	font-size: 25pt;
+}
+
+#welcome_to {
+	width: 400px;
+	font-size: 51pt;
+	text-align: center;
+}
+
